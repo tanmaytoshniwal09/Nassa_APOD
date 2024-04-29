@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem; /* Converted from 20px */
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-size: 16px; /* Set a base font size */
+}
+
+.container {
+    max-width: 50rem; /* Converted from 800px */
+    margin: auto;
+    padding: 1.25rem; /* Converted from 20px */
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.125rem; /* Converted from 2px */
+    margin-bottom: 1.25rem; /* Converted from 20px */
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem; /* Converted from 24px */
+    padding: 0.625rem 1.25rem; /* Converted from 10px 20px */
+    border: none;
+    border-radius: 0.3125rem; /* Converted from 5px */
+    display: block;
+    margin: 1.25rem auto; /* Center the button horizontally */
+    cursor: pointer;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.apod-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 1.25rem; /* Converted from 20px */
+}
+
+.textbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 0.3125rem; /* Converted from 5px */
+    padding: 1.25rem 1.25; /* Converted from 20px */
+    margin-bottom: 1.25rem; /* Converted from 20px */
+    
+}
+
+#PicName {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0.625rem; /* Converted from 10px */
+}
+
+#intro {
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+    font-size: 1.25rem; /* Converted from x-large */
+    text-align: justify;
+    margin-bottom: 1.25rem; /* Converted from 20px */
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+}
+.dateEle{
+    display: flex;
+    font-size: x-large;
+    padding-right: 2rem;
+    align-content: end;
+    justify-content: end;
+}
+#date{
+    font-size: x-large;
+    padding-left: 1rem;
+    padding-right: 2rem;
+   text-align: end; 
+}
+.copyrightEle{
+    text-align: center;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+   .copyright{
+    font-weight: normal;
+   }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 75rem; /* Increase max-width for medium size */
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100rem; /* Increase max-width for large size */
+    }
+}
